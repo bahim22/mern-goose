@@ -1,0 +1,9 @@
+{
+  "name": "rxt-ded-todo",
+  "version": "1.0.0",
+  "description": "react app todo project using yarn",
+  "main": "index.js",
+  "repository": "https://github.com/bahim22/",
+  "author": "Hima Dionysus Balde",
+  "license": "MIT"
+}
