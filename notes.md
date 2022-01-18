@@ -1,7 +1,7 @@
 
 # Notes for TS todo App
 
-## config
+## Project setup, config and packages
 
 1. create root dir and project dir
 2. start the nodejs app via yarn init
@@ -13,6 +13,9 @@
    5. `include`: tells the compiler to include files that are in the src directory and sub-directory.
    6. `exclude`: will exclude the files or folders passed in the array during compile-time.
 4. install ts and dep (local or -g )
+   1. express, mongoDB (mongoose), cors and their types as devDep for TS compiler
+   2. install dep so we can compile the ts and for starting server concurrently
+5. add build and start values to script key in package.json
 
 ```bash
 yarn add typescript
@@ -21,7 +24,7 @@ yarn add -D @types/node @types/express @types/mongoose @types/cors
 yarn add -D concurrently nodemon
 ```
 
-- example TS types, interfaces
+- Example TS types, interfaces
 
 ```ts
 let foo: string = "test" //explicit type define
@@ -53,6 +56,10 @@ function myTest(args: ITest): string {
 myTest({ id: 1 })
 ```
 
-## packages
+## Content
 
-## dir
+## Style
+
+## Build
+
+## Test
