@@ -7,7 +7,8 @@
 2. start the nodejs app via yarn init
 3. create tsconfig.json file
    1. `outDir`: tells the compiler to put the compiled code into the dist/js folder.
-   2. `target`: it specifies the ECMAScript target version when compiling the TypeScript code. Here, we target es5 to support all browsers, you can change it to ES6, ES3(it's the default if no target is specified), ES2020, etc.
+   2. `target`: it specifies the ECMAScript target version when compiling the TypeScript code.
+      1. Here, we target es5 to support all browsers, you can change it to ES6, ES3(it's the default if no target is specified), ES2020, etc.
    3. `module`: it defines the module of the compiled code. The module can be Common JS, ES2015, ES2020, etc.
    4. `rootDir`: informs TypeScript to compile every .ts file located in the src folder.
    5. `include`: tells the compiler to include files that are in the src directory and sub-directory.
@@ -56,7 +57,7 @@ function myTest(args: ITest): string {
 myTest({ id: 1 })
 ```
 
-## Content
+## Back-end steps
 
 - create a type (interface)
 - create a model
@@ -64,13 +65,27 @@ myTest({ id: 1 })
 - create API controller (get, add, update, delete info)
   - create a func to fetch data (in controller/app/index.ts)
   - the model gets data from Mongo and returns res (array of todos)
-  - 
-  - d
-  - d
-  - d
+  - create api routes
+  - create server and get cred from MongoDB Atlas by making a cluster
+
+## Front-end steps
+
+- make the client side app with React
+  - todo type
+  - fetch data
+  - create components
+  - add forms
+  - display todo items
+  - fetch/display data
+
+## Build for Production
+
+- Test
+- Debug
+- Deploy
 
 ## Style
 
-## Build
-
-## Test
+Built by following several tutorials and readings
+> [freecodecamp.com][https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/#setting-up]
+>
