@@ -58,6 +58,17 @@ myTest({ id: 1 })
 
 ## Content
 
+- create a type (interface)
+- create a model
+  - imp the interface and util from mongoose (dfines the schema and passes the interface as a type to model)
+- create API controller (get, add, update, delete info)
+  - create a func to fetch data (in controller/app/index.ts)
+  - the model gets data from Mongo and returns res (array of todos)
+  - 
+  - d
+  - d
+  - d
+
 ## Style
 
 ## Build
