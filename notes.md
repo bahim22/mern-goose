@@ -33,7 +33,7 @@ let baz: string[] = ["This", "is", "a", "Test"] //same code as below
  let baz: Array<string> = ["This", "is", "a", "Test"].
 ```
 
-- `Interfaces` and Type aliases help to define the shape of an object-like data structures.
+- `Interfaces` and `Type` aliases help to define the shape of an object-like data structures.
 
 ```ts
 interface ITest {

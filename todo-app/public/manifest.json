@@ -1,0 +1,28 @@
+{
+    "name": "Dionysus Era Dev Next PWA",
+    "lang": "en-us",
+    "short_name": "DedNextPwa",
+    "description": "A PWA blog and portfolio for web developer Ibrahima Balde, Dionysus Era",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#2f3d58",
+    "background_color": "#2f3d58",
+    "orientation": "any",
+    "icons": [{
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

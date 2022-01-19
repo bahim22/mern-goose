@@ -6,4 +6,6 @@ export interface ITodo extends Document {
   status: boolean
 };
 
-//Todo interface that extends the Document type provided by mongoose. We will be using it later to interact with MongoDB.
+//Todo interface that extends the Document type provided by mongoose, to interact with MongoDB.
+
+
