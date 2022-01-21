@@ -58,12 +58,23 @@ const updateTodo = async (req: Request, res: Response): Promise<void> => {
   }
 }
 
+const deleteTodo = async ( req: Request, res: Response): Promise<void> => {
+  try {
+    const deletedTodo: ITodo | null = await Todo.findByIdAndRemove(
+      req.params.id
+    )
+    const allTodos: ITodo[] = await Todo.find()
+    res.status(200).json({
+      message: 'Todo deleted',
+      todo: deletedTodo,
+      todos: allTodos,
+    })
+  } catch (error) {
+    throw error
+  }
+}
 
+export { getTodos, addTodo, updateTodo, deleteTodo}
 
-
-
-
-
-
-
+/*extract id from req, used as arg in findByIdAndRemove(), which finds that specific todo in the DB and deletes*/
 // todo model to get Mongo data, then return res w/ array of todos
