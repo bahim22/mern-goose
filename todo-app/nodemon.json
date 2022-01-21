@@ -1,7 +1,7 @@
 {
   "env": {
-    "MONGO_USER":"string",
-    "MONGO_PASSWORD":"string",
-    "MONGO_DATABASE":"string"
+    "MONGO_USER": "himadb",
+    "MONGO_PASSWORD": "DsPyemuSABWG2ia",
+    "MONGO_DATABASE": "ClusterTsx"
   }
 }
