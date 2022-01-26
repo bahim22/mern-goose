@@ -1,8 +1,8 @@
 
 # Dionysus Era Development
 
-[dionysus-era-logo](todo-app/public/logo.png)
-
+[dionysus-era-logo](react-todo/todo-app/public/img/logo.png)
+[dionysus-era-logo](todo-app/public/img/android-chrome-512x512.png)
 
 ## react-fullstack TS todo App
 
