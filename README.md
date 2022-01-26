@@ -1,7 +1,7 @@
 
 # Dionysus Era Development
 
-[dionysus-era-logo](/public/public/img/apple-touch-icon.png)
+[dionysus-era-logo](todo-app/public/logo.png)
 
 
 ## react-fullstack TS todo App
@@ -99,4 +99,4 @@ Built by reading code for hours, daily, following several tutorials and drinking
 
 > [freecodecamp.com][https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/#setting-up]
 
-![dionysus-era-banner](/public/public/logo.png)
+![dionysus-era-banner](todo-app/public/logo.png)
