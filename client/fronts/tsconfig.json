@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "diagnostics": true,
+    "sourceMap": true,
+    "declaration": true,
+    "disableSizeLimit": true,
+    //"jsxFactory": "React.createElement",
+    "pretty": true,
+    //"reactNamespace": "React",
+    //"noImplicitAny": false,
+    //"useUnknownInCatchVariables": true,
+    "noImplicitOverride": false,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
