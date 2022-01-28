@@ -33,39 +33,6 @@ yarn add express cors mongoose
 yarn add -D @types/node @types/express @types/mongoose @types/cors
 yarn add -D concurrently nodemon
 ```
-
-- Example TS types, interfaces
-
-```ts
-let foo: string = "test" //explicit type define
- let foo = "test" //or implicit
-let baz: string[] = ["This", "is", "a", "Test"] //same code as below
- let baz: Array<string> = ["This", "is", "a", "Test"].
-```
-
-- `Interfaces` and `Type` aliases help to define the shape of an object-like data structures.
-
-```ts
-interface ITest {
-  id: number;
-  name?: string;
-}
-
-type TestType = {
-  id: number,
-  name?: string,
-}
-
-function myTest(args: ITest): string {
-  if (args.name) {
-    return `Hello ${args.name}`
-  }
-  return "Hello Word"
-}
-
-myTest({ id: 1 })
-```
-
 ## Back-end steps
 
 - create a type (interface)

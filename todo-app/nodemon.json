@@ -2,6 +2,6 @@
   "env": {
     "MONGO_USER": "himadb",
     "MONGO_PASSWORD": "DsPyemuSABWG2ia",
-    "MONGO_DATABASE": "ClusterTsx"
+    "MONGO_DATABASE": "react-todo"
   }
 }
