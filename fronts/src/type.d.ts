@@ -1,4 +1,6 @@
 interface ITodo {
+  //name: any
+  [x: string]: any
   _id: string
   description: string
   status: boolean
@@ -11,7 +13,9 @@ interface TodoProps {
 }
 
 type ApiDataType = {
+  [x: string]: any
   message: string
+  //error?: any
   status: string
   todos: ITodo[]
   todo?: ITodo
