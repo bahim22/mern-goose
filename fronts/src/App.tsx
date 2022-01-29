@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoItem from './components/AddTodo'
+import AddTodo from './components/TodoItem'
+import { addTodo, getTodos, deleteTodo, updateTodo } from './API'
 
 function App() {
   return (
