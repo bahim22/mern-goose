@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router'
+//import { useRouter } from 'next/router'
 import siteMetadata from '@/compos/siteMetadata'
 
 const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {

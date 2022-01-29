@@ -1,12 +1,12 @@
 const siteMetadata = {
-  title: 'Hima Balde Blog/Portfolio',
+  title: 'Hima Balde MERN App',
   author: 'Hima Balde',
   headerTitle: 'Dionysus Era Dev',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'A todo app created with MERN stack',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://next-tail-22.vercel.app',
-  siteRepo: 'https://github.com/bahim22/next-tail-22',
+  siteRepo: 'https://github.com/bahim22/react-todo',
   siteLogo: '/public/logo.png',
   image: '/public/img/bb33.png',
   socialBanner: '/public/public/img/android-chrome-512x512.png',
@@ -19,7 +19,7 @@ const siteMetadata = {
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: '', // e.g. next-tail22.vercel.app
     simpleAnalytics: false, // true or false
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
