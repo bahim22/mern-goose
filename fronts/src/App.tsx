@@ -1,18 +1,32 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+//@ts-nocheck
+
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TodoItem from './components/AddTodo'
 import AddTodo from './components/TodoItem'
 import { addTodo, getTodos, deleteTodo, updateTodo } from './API'
+import Todo from './components/TodoItem';
 
-function App() {
+
+const App: React.FC = () => {
+
+
+
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <h1> My Todos </h1>
+        <AddTodo saveToDo={handleSaveTodo}  />
+        {todos.map((todo: ITodo) => (
+          <TodoItem
+            key={todo._id}
+            updateTodo={handleUpdateTodo}
+            deleteTodo={handleDeleteTodo}
+            todo={todo} />
+            ))}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,7 +36,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </main>
   );
 }
 

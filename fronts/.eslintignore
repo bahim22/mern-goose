@@ -1,0 +1,14 @@
+./postcss.config.js
+./tailwind.config.js
+./build
+./dist
+./node_modules
+./public
+./tw.js
+./webpack.config.js
+./babelrc
+./prettierrc
+./vercel.json
+./compos
+./cypress
+./Posts

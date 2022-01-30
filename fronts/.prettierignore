@@ -1,0 +1,16 @@
+.next
+next-env.d.ts
+node_modules
+yarn.lock
+package-lock.json
+package.json
+tw.js
+tailwind.config.js
+webpack.config.js
+public
+build
+dist
+coverage
+/build/
+/test-config/
+.vscode
