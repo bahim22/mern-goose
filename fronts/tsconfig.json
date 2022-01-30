@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "diagnostics": true,
     "sourceMap": true,
     //"declaration": true,
     //"disableSizeLimit": true,
     //"jsxFactory": "React.createElement",
     "pretty": true,
-    //"reactNamespace": "React",
     "noImplicitAny": false,
-    //"useUnknownInCatchVariables": true,
+    "useUnknownInCatchVariables": true,
     "noImplicitOverride": false,
     "lib": [
       "dom",
@@ -28,9 +27,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react",
+    "incremental": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "include": [
-    "src"
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
   ]
 }

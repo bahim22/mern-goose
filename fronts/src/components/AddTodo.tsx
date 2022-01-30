@@ -4,7 +4,6 @@ type Props = {
   saveTodo: (e: React.FormEvent, formData: ITodo | any) => void
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AddTodo: React.FC<Props> = ({ saveTodo }) => {
   const [formData, setFormData] = useState<ITodo | {}>()
 
@@ -24,7 +23,7 @@ const AddTodo: React.FC<Props> = ({ saveTodo }) => {
         </div>
         <div>
           <label htmlFor="description">Description</label>
-          <input onChange={handleForm} type="text" name="description" id="description" />
+          <input onChange={handleForm} type="text" id="description" />
         </div>
       </div>
       <button disabled={formData === undefined ? true: false}> Add Todo
