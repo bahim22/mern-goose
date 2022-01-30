@@ -24,7 +24,7 @@ const App: React.FC = () => {
     addTodo(formData)
     .then(({ status, data }) => {
       if (status !== 201) {
-        throw new Error('Error! Todo was not saved')
+        throw new Error('Error! Todo not saved')
       }
       setTodos(data.todos)
     })
@@ -66,16 +66,16 @@ const App: React.FC = () => {
           Vist my GitHub for more Apps
         </a>
       </header>
-        <h1> My Todos </h1>
-        <AddTodo saveTodo={handleSaveTodo}  />
-        {todos.map((todo: ITodo) => (
-          <TodoItem
-            key={todo._id}
-            updateTodo={handleUpdateTodo}
-            deleteTodo={handleDeleteTodo}
-            todo={todo}
-          />
-        ))}
+      <h1> My Todos </h1>
+      <AddTodo saveTodo={handleSaveTodo} />
+      {todos.map((todo: ITodo) => (
+        <TodoItem
+          key={todo._id}
+          updateTodo={handleUpdateTodo}
+          deleteTodo={handleDeleteTodo}
+          todo={todo}
+        />
+      ))}
     </main>
   );
 }

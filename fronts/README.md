@@ -29,4 +29,11 @@
   - The ITodo type is matched by the formData state and in order for it to accept the initial state of the empty object (no todos) an alternative type ({}) is added
   - To correctly handle props received by the compo we extend TodoProps type then append the updatetodo & deleteTodo funcs
   - the todo object will be passed in enabling it to be displayed and add funcs to update & delete a Todo
-- `Fetch` & `Display` data
+- `Fetch` & `Display` data (import compos & utilities)
+  - implement useState with the ITodo type but initialized w/ empty []
+  - since getTodos() returns a promise, able to use then func and return the user input data or error (change to _async func and await_); then call fetchTodos after compo mounts
+- (update/delete = get params, send req to server, get a res and carryout the task or throw error) upon form submit, addTodo() req to server and the data is either saved and the Todo updated or throw new error
+- place  AddTodo compo in App then use todos.map to loop through the data and return to the nested TodoItem compo
+- start the server then the FE
+- test and debug
+- add UI/UX, az login and build
