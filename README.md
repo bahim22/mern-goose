@@ -1,8 +1,6 @@
 
 # Dionysus Era Development
 
-[dionysus-era-logo](react-todo/todo-app/public/logo.png)
-[dionysus-era-logo](react-todo/todo-app/public/img/android-chrome-512x512.png)
 
 ## react-fullstack TS todo App
 
@@ -16,8 +14,7 @@ tags: [ 'react', 'express', 'mongoDb', 'yarn', 'typescript']
 2. start the nodejs app via yarn init
 3. create tsconfig.json file
    1. `outDir`: tells the compiler to put the compiled code into the dist/js folder.
-   2. `target`: it specifies the ECMAScript target version when compiling the TypeScript code.
-      1. Here, we target es5 to support all browsers, you can change it to ES6, ES3(it's the default if no target is specified), ES2020, etc.
+   2. `target`: it specifies the ECMAScript target version when compiling the TypeScript code
    3. `module`: it defines the module of the compiled code. The module can be Common JS, ES2015, ES2020, etc.
    4. `rootDir`: informs TypeScript to compile every .ts file located in the src folder.
    5. `include`: tells the compiler to include files that are in the src directory and sub-directory.
@@ -55,11 +52,6 @@ yarn add -D concurrently nodemon
   - display todo items
   - fetch/display data
 
-## Build for Production
-
-- Test
-- Debug
-- Deploy
 
 ## Style
 
