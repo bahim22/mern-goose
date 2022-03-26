@@ -1,4 +1,4 @@
-import {ITodo} from './../../types/todo'
+import {ITodo} from '../../types/todo'
 import { Response, Request } from 'express'
 // used to explicitly type values
 import Todo from '../../models/todo';
